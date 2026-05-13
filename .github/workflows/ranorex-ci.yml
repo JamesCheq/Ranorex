@@ -1,0 +1,46 @@
+name: Ranorex CI
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  ranorex-test:
+    runs-on: windows-latest
+
+    steps:
+      # 1. Checkout repo
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      # 2. Setup MSBuild
+      - name: Setup MSBuild
+        uses: microsoft/setup-msbuild@v2
+
+      # 3. Restore NuGet packages
+      - name: Restore NuGet packages
+        run: msbuild RanorexFramework/RanorexFramework.sln
+
+      # 4. Build solution (IMPORTANT for Ranorex DLLs + bin output)
+      - name: Build solution
+        run: |
+          msbuild RanorexFramework/RanorexFramework.sln `
+          /p:Configuration=Debug `
+          /p:Platform="Any CPU"
+
+      # 5. Run Ranorex Test Suite
+      - name: Run Ranorex Tests
+        run: |
+          $suite = "RanorexFramework\RanorexFramework.rxtst"
+
+          # adjust if your bin path differs
+          $runner = "RanorexFramework\bin\Debug\Ranorex.exe"
+
+          if (!(Test-Path $runner)) {
+            Write-Host "Ranorex runner not found in bin folder"
+            exit 1
+          }
+
+          & $runner $suite /reportfile="TestReport.rxlog.html"
