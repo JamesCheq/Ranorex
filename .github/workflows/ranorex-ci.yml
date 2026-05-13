@@ -21,7 +21,7 @@ jobs:
         uses: nuget/setup-nuget@v2
 
       - name: Restore NuGet packages
-        run: nuget restore RanorexFramework/RanorexFramework.sln
+        run: nuget restore RanorexFramework.sln
 
       - name: Build solution
         run: |
