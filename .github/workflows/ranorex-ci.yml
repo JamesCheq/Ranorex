@@ -25,7 +25,7 @@ jobs:
 
       - name: Build solution
         run: |
-          msbuild RanorexFramework/RanorexFramework.sln `
+          msbuild RanorexFramework.sln `
           /p:Configuration=Debug `
           /p:Platform="Any CPU"
 
