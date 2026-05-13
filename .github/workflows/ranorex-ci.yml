@@ -17,8 +17,11 @@ jobs:
       - name: Setup MSBuild
         uses: microsoft/setup-msbuild@v2
 
+      - name: Install NuGet
+        uses: nuget/setup-nuget@v2
+
       - name: Restore NuGet packages
-        run: msbuild RanorexFramework/RanorexFramework.sln /t:Restore
+        run: nuget restore RanorexFramework/RanorexFramework.sln
 
       - name: Build solution
         run: |
