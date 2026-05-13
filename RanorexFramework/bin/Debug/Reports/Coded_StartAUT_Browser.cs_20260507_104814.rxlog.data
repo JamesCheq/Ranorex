@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="4.27s"
+		durationms="4268"
+		type="root"
+		rid="1636513ec509547"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Jos"
+		rxversion="12.7.4.0"
+		host="JOSCHIE"
+		osversion="Windows 11 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-PH"
+		screenresolution="1920x1080"
+		timestamp="7 May 2026 10:48:16 am"
+		timestampiso="2026-05-07T02:48:16"
+		endtime="7 May 2026 10:48:21 am"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Coded_StartAUT_Browser">
+		<detail>
+			Coded_StartAUT_Browser
+		</detail>
+		<varbindings>
+		</varbindings>
+	</activity>
+</report>

@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="16.17s"
+		durationms="16165"
+		type="root"
+		rid="28a0de8b4f4ac4d9"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="JamesFornis"
+		rxversion="12.7.4.0"
+		host="CHEQ-LAP-304"
+		osversion="Windows 11 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="5/11/2026 3:17:29 PM"
+		timestampiso="2026-05-11T07:17:29"
+		endtime="5/11/2026 3:17:46 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="EnterName">
+		<detail>
+			EnterName
+		</detail>
+		<errormessage>
+			Attribute 'Text' of element for item 'RanorexFrameworkRepository.RxMainFrame.Introduction.LblWelcomeMessage' does not match the specified value (actual='Welcome!', expected='Welcome,·!').
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.406"
+			timeRelativeToTestModuleStartTime="00:08.406"
+			timeWallClock="15:17:38"
+			time="00:08.406"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>SampleName
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.595"
+			timeRelativeToTestModuleStartTime="00:08.595"
+			timeWallClock="15:17:38"
+			time="00:08.595"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'RxMainFrame.Introduction.EnterYourName' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabIntroduction']/?/?/text[@accessiblename='Enter your name']"
+				itempath="?/?/tabpage[@controlname='RxTabIntroduction']/?/?/text[@accessiblename='Enter your name']"
+				fullname="RanorexFrameworkRepository.RxMainFrame.Introduction.EnterYourName"
+				id="b838b38fd3654295ad872b69e26577a4"
+				timeout="60000"
+				codefile="C:\Users\JamesFornis\Documents\Ranorex\RanorexStudio Projects\RanorexFramework\RanorexFramework\Pages\Introduction\EnterName.cs"
+				codeline="95"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.203"
+			timeRelativeToTestModuleStartTime="00:10.203"
+			timeWallClock="15:17:40"
+			time="00:10.203"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute Text to '$SampleName' on item 'RxMainFrame.Introduction.EnterYourName'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabIntroduction']/?/?/text[@accessiblename='Enter your name']"
+				itempath="?/?/tabpage[@controlname='RxTabIntroduction']/?/?/text[@accessiblename='Enter your name']"
+				fullname="RanorexFrameworkRepository.RxMainFrame.Introduction.EnterYourName"
+				id="b838b38fd3654295ad872b69e26577a4"
+				timeout="60000"
+				codefile="C:\Users\JamesFornis\Documents\Ranorex\RanorexStudio Projects\RanorexFramework\RanorexFramework\Pages\Introduction\EnterName.cs"
+				codeline="99"
+				itemindex="6"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.773"
+			timeRelativeToTestModuleStartTime="00:10.773"
+			timeWallClock="15:17:40"
+			time="00:10.773"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'RxMainFrame.Introduction.BtnSubmitUserName' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabIntroduction']/button[@controlname='btnSubmitUserName']"
+				itempath="?/?/tabpage[@controlname='RxTabIntroduction']/button[@controlname='btnSubmitUserName']"
+				fullname="RanorexFrameworkRepository.RxMainFrame.Introduction.BtnSubmitUserName"
+				id="eb016da7b56f4d51b8dfa61cc658a46c"
+				timeout="60000"
+				codefile="C:\Users\JamesFornis\Documents\Ranorex\RanorexStudio Projects\RanorexFramework\RanorexFramework\Pages\Introduction\EnterName.cs"
+				codeline="107"
+				itemindex="8"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.675"
+			timeRelativeToTestModuleStartTime="00:11.675"
+			timeWallClock="15:17:41"
+			time="00:11.675"
+			level="Info"
+			category="Validation"
+			errimg="images_EnterNam_305db45\EnterNam_305db45_e3f45738_trace.jpg"
+			errthumb="images_EnterNam_305db45\EnterNam_305db45_e3f45738_trace_thumb.jpg">
+			<message>
+				Validating AttributeEqual (Text='Welcome, $Introduction_Name!') on item 'textInfo'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabIntroduction']/text[@controlname='lblWelcomeMessage']"
+				itempath="?/?/tabpage[@controlname='RxTabIntroduction']/text[@controlname='lblWelcomeMessage']"
+				fullname="RanorexFrameworkRepository.RxMainFrame.Introduction.LblWelcomeMessage"
+				id="b151cca6b7dc46369533e16246e9a615"
+				timeout="60000"
+				codefile="C:\Users\JamesFornis\Documents\Ranorex\RanorexStudio Projects\RanorexFramework\RanorexFramework\Pages\Introduction\EnterName.UserCode.cs"
+				codeline="38"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:16.033"
+			timeRelativeToTestModuleStartTime="00:16.033"
+			timeWallClock="15:17:45"
+			time="00:16.033"
+			level="Failure"
+			category="Validation"
+			errimg="images_EnterNam_305db45\EnterNam_305db45_4f1bb7f1_trace.jpg"
+			errthumb="images_EnterNam_305db45\EnterNam_305db45_4f1bb7f1_trace_thumb.jpg">
+			<message>
+				Attribute 'Text' of element for item 'RanorexFrameworkRepository.RxMainFrame.Introduction.LblWelcomeMessage' does not match the specified value (actual='Welcome!', expected='Welcome,·!').
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabIntroduction']/text[@controlname='lblWelcomeMessage']"
+				itempath="?/?/tabpage[@controlname='RxTabIntroduction']/text[@controlname='lblWelcomeMessage']"
+				fullname="RanorexFrameworkRepository.RxMainFrame.Introduction.LblWelcomeMessage"
+				id="b151cca6b7dc46369533e16246e9a615"
+				timeout="60000"
+				codefile="C:\Users\JamesFornis\Documents\Ranorex\RanorexStudio Projects\RanorexFramework\RanorexFramework\Pages\Introduction\EnterName.UserCode.cs"
+				codeline="39"
+				loglvl="Failure">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:16.041"
+			timeRelativeToTestModuleStartTime="00:16.041"
+			timeWallClock="15:17:45"
+			time="00:16.041"
+			level="Error"
+			category="Module"
+			errimg="images_EnterNam_305db45\EnterNam_305db45_4f1bb7f1_trace.jpg"
+			errthumb="images_EnterNam_305db45\EnterNam_305db45_4f1bb7f1_trace_thumb.jpg">
+			<message>
+				Module execution was aborted because a validation step has failed. Attribute 'Text' of element for item 'RanorexFrameworkRepository.RxMainFrame.Introduction.LblWelcomeMessage' does not match the specified value (actual='Welcome!', expected='Welcome,·!').
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Validate.Execute(AttributeValidation attributeValidation, Func`1 action, Options options, RepoItemInfo itemInfo)
+   at Ranorex.Validate.Execute(IElement element, IMatch match, String message, Options options, RepoItemInfo itemInfo, Func`3 comparisonFunc, String reasonPattern)
+   at Ranorex.Validate.AttributeEqualInternal(IElement element, String name, Object value, String message, Options options, RepoItemInfo itemInfo)
+   at Ranorex.Validate.AttributeEqualInternal(RepoItemInfo itemInfo, String name, Object value, String message, Options options)
+   at Ranorex.Validate.AttributeEqual(RepoItemInfo itemInfo, String name, Object value, String message, Options options)
+   at Ranorex.Validate.AttributeEqual(RepoItemInfo itemInfo, String name, Object value)
+   at RanorexFramework.Pages.Introduction.EnterName.Validate_LblWelcomeMessage(RepoItemInfo textInfo) in C:\Users\JamesFornis\Documents\Ranorex\RanorexStudio Projects\RanorexFramework\RanorexFramework\Pages\Introduction\EnterName.UserCode.cs:line 39
+   at RanorexFramework.Pages.Introduction.EnterName.Ranorex.Core.Testing.ITestModule.Run() in C:\Users\JamesFornis\Documents\Ranorex\RanorexStudio Projects\RanorexFramework\RanorexFramework\Pages\Introduction\EnterName.cs:line 111
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="C:\Users\JamesFornis\Documents\Ranorex\RanorexStudio Projects\RanorexFramework\RanorexFramework\Pages\Introduction\EnterName.UserCode.cs"
+				codeline="39"
+				type="repoitem"
+				path="/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabIntroduction']/text[@controlname='lblWelcomeMessage']"
+				itempath="?/?/tabpage[@controlname='RxTabIntroduction']/text[@controlname='lblWelcomeMessage']"
+				fullname="RanorexFrameworkRepository.RxMainFrame.Introduction.LblWelcomeMessage"
+				id="b151cca6b7dc46369533e16246e9a615"
+				timeout="60000"
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

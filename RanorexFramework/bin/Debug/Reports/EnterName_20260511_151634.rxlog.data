@@ -1,0 +1,311 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="29.95s"
+		durationms="29949"
+		type="root"
+		rid="10f3102a495bc0f8"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="JamesFornis"
+		rxversion="12.7.4.0"
+		host="CHEQ-LAP-304"
+		osversion="Windows 11 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="5/11/2026 3:16:42 PM"
+		timestampiso="2026-05-11T07:16:42"
+		endtime="5/11/2026 3:17:12 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="EnterName">
+		<detail>
+			EnterName
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.631"
+			timeRelativeToTestModuleStartTime="00:06.631"
+			timeWallClock="15:16:49"
+			time="00:06.631"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>SampleName
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.779"
+			timeRelativeToTestModuleStartTime="00:06.779"
+			timeWallClock="15:16:49"
+			time="00:06.779"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating Exists on item 'RxMainFrame.Introduction.LblWelcomeMessage'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabIntroduction']/text[@controlname='lblWelcomeMessage']"
+				itempath="?/?/tabpage[@controlname='RxTabIntroduction']/text[@controlname='lblWelcomeMessage']"
+				fullname="RanorexFrameworkRepository.RxMainFrame.Introduction.LblWelcomeMessage"
+				id="b151cca6b7dc46369533e16246e9a615"
+				timeout="60000"
+				codefile="C:\Users\JamesFornis\Documents\Ranorex\RanorexStudio Projects\RanorexFramework\RanorexFramework\Pages\Introduction\EnterName.cs"
+				codeline="95"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:26.707"
+			timeRelativeToTestModuleStartTime="00:26.707"
+			timeWallClock="15:17:09"
+			time="00:26.707"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'LblWelcomeMessage' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabIntroduction']/text[@controlname='lblWelcomeMessage']"
+				itempath="?/?/tabpage[@controlname='RxTabIntroduction']/text[@controlname='lblWelcomeMessage']"
+				fullname="RanorexFrameworkRepository.RxMainFrame.Introduction.LblWelcomeMessage"
+				id="b151cca6b7dc46369533e16246e9a615"
+				timeout="60000"
+				codefile="C:\Users\JamesFornis\Documents\Ranorex\RanorexStudio Projects\RanorexFramework\RanorexFramework\Pages\Introduction\EnterName.cs"
+				codeline="96"
+				loglvl="Success"
+				itemindex="0">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:26.708"
+			timeRelativeToTestModuleStartTime="00:26.708"
+			timeWallClock="15:17:09"
+			time="00:26.708"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Text='Welcome!') on item 'RxMainFrame.Introduction.LblWelcomeMessage'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabIntroduction']/text[@controlname='lblWelcomeMessage']"
+				itempath="?/?/tabpage[@controlname='RxTabIntroduction']/text[@controlname='lblWelcomeMessage']"
+				fullname="RanorexFrameworkRepository.RxMainFrame.Introduction.LblWelcomeMessage"
+				id="b151cca6b7dc46369533e16246e9a615"
+				timeout="60000"
+				codefile="C:\Users\JamesFornis\Documents\Ranorex\RanorexStudio Projects\RanorexFramework\RanorexFramework\Pages\Introduction\EnterName.cs"
+				codeline="99"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:27.051"
+			timeRelativeToTestModuleStartTime="00:27.051"
+			timeWallClock="15:17:09"
+			time="00:27.051"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'RanorexFrameworkRepository.RxMainFrame.Introduction.LblWelcomeMessage' does match the specified value (actual='Welcome!', expected='Welcome!').
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabIntroduction']/text[@controlname='lblWelcomeMessage']"
+				itempath="?/?/tabpage[@controlname='RxTabIntroduction']/text[@controlname='lblWelcomeMessage']"
+				fullname="RanorexFrameworkRepository.RxMainFrame.Introduction.LblWelcomeMessage"
+				id="b151cca6b7dc46369533e16246e9a615"
+				timeout="60000"
+				codefile="C:\Users\JamesFornis\Documents\Ranorex\RanorexStudio Projects\RanorexFramework\RanorexFramework\Pages\Introduction\EnterName.cs"
+				codeline="100"
+				loglvl="Success"
+				itemindex="1">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:27.051"
+			timeRelativeToTestModuleStartTime="00:27.051"
+			timeWallClock="15:17:09"
+			time="00:27.051"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating Exists on item 'RxMainFrame.Introduction.EnterYourName'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabIntroduction']/?/?/text[@accessiblename='Enter your name']"
+				itempath="?/?/tabpage[@controlname='RxTabIntroduction']/?/?/text[@accessiblename='Enter your name']"
+				fullname="RanorexFrameworkRepository.RxMainFrame.Introduction.EnterYourName"
+				id="b838b38fd3654295ad872b69e26577a4"
+				timeout="60000"
+				codefile="C:\Users\JamesFornis\Documents\Ranorex\RanorexStudio Projects\RanorexFramework\RanorexFramework\Pages\Introduction\EnterName.cs"
+				codeline="103"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:27.557"
+			timeRelativeToTestModuleStartTime="00:27.557"
+			timeWallClock="15:17:10"
+			time="00:27.557"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'EnterYourName' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabIntroduction']/?/?/text[@accessiblename='Enter your name']"
+				itempath="?/?/tabpage[@controlname='RxTabIntroduction']/?/?/text[@accessiblename='Enter your name']"
+				fullname="RanorexFrameworkRepository.RxMainFrame.Introduction.EnterYourName"
+				id="b838b38fd3654295ad872b69e26577a4"
+				timeout="60000"
+				codefile="C:\Users\JamesFornis\Documents\Ranorex\RanorexStudio Projects\RanorexFramework\RanorexFramework\Pages\Introduction\EnterName.cs"
+				codeline="104"
+				loglvl="Success"
+				itemindex="2">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:27.558"
+			timeRelativeToTestModuleStartTime="00:27.558"
+			timeWallClock="15:17:10"
+			time="00:27.558"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating Exists on item 'RxMainFrame.Introduction.BtnSubmitUserName'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabIntroduction']/button[@controlname='btnSubmitUserName']"
+				itempath="?/?/tabpage[@controlname='RxTabIntroduction']/button[@controlname='btnSubmitUserName']"
+				fullname="RanorexFrameworkRepository.RxMainFrame.Introduction.BtnSubmitUserName"
+				id="eb016da7b56f4d51b8dfa61cc658a46c"
+				timeout="60000"
+				codefile="C:\Users\JamesFornis\Documents\Ranorex\RanorexStudio Projects\RanorexFramework\RanorexFramework\Pages\Introduction\EnterName.cs"
+				codeline="107"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:27.864"
+			timeRelativeToTestModuleStartTime="00:27.864"
+			timeWallClock="15:17:10"
+			time="00:27.864"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'BtnSubmitUserName' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabIntroduction']/button[@controlname='btnSubmitUserName']"
+				itempath="?/?/tabpage[@controlname='RxTabIntroduction']/button[@controlname='btnSubmitUserName']"
+				fullname="RanorexFrameworkRepository.RxMainFrame.Introduction.BtnSubmitUserName"
+				id="eb016da7b56f4d51b8dfa61cc658a46c"
+				timeout="60000"
+				codefile="C:\Users\JamesFornis\Documents\Ranorex\RanorexStudio Projects\RanorexFramework\RanorexFramework\Pages\Introduction\EnterName.cs"
+				codeline="108"
+				loglvl="Success"
+				itemindex="3">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:27.864"
+			timeRelativeToTestModuleStartTime="00:27.864"
+			timeWallClock="15:17:10"
+			time="00:27.864"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating Exists on item 'RxMainFrame.Introduction.Reset'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabIntroduction']/link[@controlname='RxLinkBtnReset']/?/?/link[@accessiblename='Reset']"
+				itempath="?/?/tabpage[@controlname='RxTabIntroduction']/link[@controlname='RxLinkBtnReset']/?/?/link[@accessiblename='Reset']"
+				fullname="RanorexFrameworkRepository.RxMainFrame.Introduction.Reset"
+				id="94dc7beb5a994c25bca0f99723454379"
+				timeout="60000"
+				codefile="C:\Users\JamesFornis\Documents\Ranorex\RanorexStudio Projects\RanorexFramework\RanorexFramework\Pages\Introduction\EnterName.cs"
+				codeline="111"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:28.227"
+			timeRelativeToTestModuleStartTime="00:28.227"
+			timeWallClock="15:17:10"
+			time="00:28.227"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'Reset' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabIntroduction']/link[@controlname='RxLinkBtnReset']/?/?/link[@accessiblename='Reset']"
+				itempath="?/?/tabpage[@controlname='RxTabIntroduction']/link[@controlname='RxLinkBtnReset']/?/?/link[@accessiblename='Reset']"
+				fullname="RanorexFrameworkRepository.RxMainFrame.Introduction.Reset"
+				id="94dc7beb5a994c25bca0f99723454379"
+				timeout="60000"
+				codefile="C:\Users\JamesFornis\Documents\Ranorex\RanorexStudio Projects\RanorexFramework\RanorexFramework\Pages\Introduction\EnterName.cs"
+				codeline="112"
+				loglvl="Success"
+				itemindex="4">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:28.227"
+			timeRelativeToTestModuleStartTime="00:28.227"
+			timeWallClock="15:17:10"
+			time="00:28.227"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'RxMainFrame.Introduction.EnterYourName' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabIntroduction']/?/?/text[@accessiblename='Enter your name']"
+				itempath="?/?/tabpage[@controlname='RxTabIntroduction']/?/?/text[@accessiblename='Enter your name']"
+				fullname="RanorexFrameworkRepository.RxMainFrame.Introduction.EnterYourName"
+				id="b838b38fd3654295ad872b69e26577a4"
+				timeout="60000"
+				codefile="C:\Users\JamesFornis\Documents\Ranorex\RanorexStudio Projects\RanorexFramework\RanorexFramework\Pages\Introduction\EnterName.cs"
+				codeline="115"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

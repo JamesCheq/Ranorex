@@ -1,0 +1,566 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>RanorexFramework</name>
+    </assembly>
+    <members>
+        <member name="T:RanorexFramework.Teardown.Coded_CloseAUT">
+            <summary>
+            Description of Coded_CloseAUT.
+            </summary>
+        </member>
+        <member name="M:RanorexFramework.Teardown.Coded_CloseAUT.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:RanorexFramework.Teardown.Coded_CloseAUT.CloseAutProcessIDVar">
+            <summary>
+            Gets or sets the value of variable CloseAutProcessIDVar.
+            </summary>
+        </member>
+        <member name="M:RanorexFramework.Teardown.Coded_CloseAUT.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this module.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="T:RanorexFramework.Setup.Coded_StartAUT">
+            <summary>
+            Description of Coded_StartAUT.
+            </summary>
+        </member>
+        <member name="M:RanorexFramework.Setup.Coded_StartAUT.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:RanorexFramework.Setup.Coded_StartAUT.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this module.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="T:RanorexFramework.Modules.Coded_StartAUT_Browser">
+            <summary>
+            Description of Coded_StartAUT_Browser.
+            </summary>
+        </member>
+        <member name="M:RanorexFramework.Modules.Coded_StartAUT_Browser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:RanorexFramework.Modules.Coded_StartAUT_Browser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this module.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="T:RanorexFramework.Pages.CloseAUT">
+             <summary>
+            The CloseAUT recording.
+             </summary>
+        </member>
+        <member name="F:RanorexFramework.Pages.CloseAUT.repo">
+            <summary>
+            Holds an instance of the global::RanorexFramework.Repository.RanorexFrameworkRepository repository.
+            </summary>
+        </member>
+        <member name="M:RanorexFramework.Pages.CloseAUT.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:RanorexFramework.Pages.CloseAUT.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:RanorexFramework.Pages.CloseAUT.CloseAutProcessIDVar">
+            <summary>
+            Gets or sets the value of variable CloseAutProcessIDVar.
+            </summary>
+        </member>
+        <member name="M:RanorexFramework.Pages.CloseAUT.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:RanorexFramework.Pages.CloseAUT.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:RanorexFramework.Pages.CloseAUT.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:RanorexFramework.Pages.CloseAUT.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:RanorexFramework.Pages.Introduction.EnterName">
+             <summary>
+            The EnterName recording.
+             </summary>
+        </member>
+        <member name="F:RanorexFramework.Pages.Introduction.EnterName.repo">
+            <summary>
+            Holds an instance of the global::RanorexFramework.Repository.RanorexFrameworkRepository repository.
+            </summary>
+        </member>
+        <member name="M:RanorexFramework.Pages.Introduction.EnterName.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:RanorexFramework.Pages.Introduction.EnterName.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:RanorexFramework.Pages.Introduction.EnterName.SampleName">
+            <summary>
+            Gets or sets the value of variable SampleName.
+            </summary>
+        </member>
+        <member name="M:RanorexFramework.Pages.Introduction.EnterName.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:RanorexFramework.Pages.Introduction.EnterName.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:RanorexFramework.Pages.Introduction.EnterName.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:RanorexFramework.Pages.Introduction.EnterName.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:RanorexFramework.Pages.Introduction.ValidationBanner">
+             <summary>
+            The ValidationBanner recording.
+             </summary>
+        </member>
+        <member name="F:RanorexFramework.Pages.Introduction.ValidationBanner.repo">
+            <summary>
+            Holds an instance of the global::RanorexFramework.Repository.RanorexFrameworkRepository repository.
+            </summary>
+        </member>
+        <member name="M:RanorexFramework.Pages.Introduction.ValidationBanner.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:RanorexFramework.Pages.Introduction.ValidationBanner.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:RanorexFramework.Pages.Introduction.ValidationBanner.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:RanorexFramework.Pages.Introduction.ValidationBanner.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:RanorexFramework.Pages.Introduction.ValidationBanner.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:RanorexFramework.Pages.Introduction.ValidationBanner.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:RanorexFramework.Pages.StartAUT">
+             <summary>
+            The StartAUT recording.
+             </summary>
+        </member>
+        <member name="F:RanorexFramework.Pages.StartAUT.repo">
+            <summary>
+            Holds an instance of the global::RanorexFramework.Repository.RanorexFrameworkRepository repository.
+            </summary>
+        </member>
+        <member name="M:RanorexFramework.Pages.StartAUT.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:RanorexFramework.Pages.StartAUT.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:RanorexFramework.Pages.StartAUT.StartAutProcessIDVar">
+            <summary>
+            Gets or sets the value of variable StartAutProcessIDVar.
+            </summary>
+        </member>
+        <member name="M:RanorexFramework.Pages.StartAUT.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:RanorexFramework.Pages.StartAUT.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:RanorexFramework.Pages.StartAUT.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:RanorexFramework.Pages.StartAUT.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:RanorexFramework.Pages.Test_Database.AddDatabaseEntry">
+             <summary>
+            The AddDatabaseEntry recording.
+             </summary>
+        </member>
+        <member name="F:RanorexFramework.Pages.Test_Database.AddDatabaseEntry.repo">
+            <summary>
+            Holds an instance of the global::RanorexFramework.Repository.RanorexFrameworkRepository repository.
+            </summary>
+        </member>
+        <member name="M:RanorexFramework.Pages.Test_Database.AddDatabaseEntry.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:RanorexFramework.Pages.Test_Database.AddDatabaseEntry.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:RanorexFramework.Pages.Test_Database.AddDatabaseEntry.Database_FirstName">
+            <summary>
+            Gets or sets the value of variable Database_FirstName.
+            </summary>
+        </member>
+        <member name="P:RanorexFramework.Pages.Test_Database.AddDatabaseEntry.Database_LastName">
+            <summary>
+            Gets or sets the value of variable Database_LastName.
+            </summary>
+        </member>
+        <member name="P:RanorexFramework.Pages.Test_Database.AddDatabaseEntry.Database_Department">
+            <summary>
+            Gets or sets the value of variable Database_Department.
+            </summary>
+        </member>
+        <member name="P:RanorexFramework.Pages.Test_Database.AddDatabaseEntry.Database_Age">
+            <summary>
+            Gets or sets the value of variable Database_Age.
+            </summary>
+        </member>
+        <member name="P:RanorexFramework.Pages.Test_Database.AddDatabaseEntry.Database_Gender">
+            <summary>
+            Gets or sets the value of variable Database_Gender.
+            </summary>
+        </member>
+        <member name="M:RanorexFramework.Pages.Test_Database.AddDatabaseEntry.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:RanorexFramework.Pages.Test_Database.AddDatabaseEntry.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:RanorexFramework.Pages.Test_Database.AddDatabaseEntry.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:RanorexFramework.Pages.Test_Database.AddDatabaseEntry.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:RanorexFramework.Repository.RanorexFrameworkRepository">
+            <summary>
+            The class representing the RanorexFrameworkRepository element repository.
+            </summary>
+        </member>
+        <member name="P:RanorexFramework.Repository.RanorexFrameworkRepository.Instance">
+            <summary>
+            Gets the singleton class instance representing the RanorexFrameworkRepository element repository.
+            </summary>
+        </member>
+        <member name="M:RanorexFramework.Repository.RanorexFrameworkRepository.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:RanorexFramework.Repository.RanorexFrameworkRepository.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:RanorexFramework.Repository.RanorexFrameworkRepository.RxMainFrame">
+            <summary>
+            The RxMainFrame folder.
+            </summary>
+        </member>
+        <member name="T:RanorexFramework.Repository.RanorexFrameworkRepositoryFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:RanorexFramework.Repository.RanorexFrameworkRepositoryFolders.RxMainFrameAppFolder">
+            <summary>
+            The RxMainFrameAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:RanorexFramework.Repository.RanorexFrameworkRepositoryFolders.RxMainFrameAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new RxMainFrame  folder.
+            </summary>
+        </member>
+        <member name="P:RanorexFramework.Repository.RanorexFrameworkRepositoryFolders.RxMainFrameAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:RanorexFramework.Repository.RanorexFrameworkRepositoryFolders.RxMainFrameAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:RanorexFramework.Repository.RanorexFrameworkRepositoryFolders.RxMainFrameAppFolder.Tabs">
+            <summary>
+            The Tabs folder.
+            </summary>
+        </member>
+        <member name="P:RanorexFramework.Repository.RanorexFrameworkRepositoryFolders.RxMainFrameAppFolder.Introduction">
+            <summary>
+            The Introduction folder.
+            </summary>
+        </member>
+        <member name="P:RanorexFramework.Repository.RanorexFrameworkRepositoryFolders.RxMainFrameAppFolder.Test_Database">
+            <summary>
+            The Test_Database folder.
+            </summary>
+        </member>
+        <member name="T:RanorexFramework.Repository.RanorexFrameworkRepositoryFolders.TabsFolder">
+            <summary>
+            The TabsFolder folder.
+            </summary>
+        </member>
+        <member name="M:RanorexFramework.Repository.RanorexFrameworkRepositoryFolders.TabsFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Tabs  folder.
+            </summary>
+        </member>
+        <member name="P:RanorexFramework.Repository.RanorexFrameworkRepositoryFolders.TabsFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:RanorexFramework.Repository.RanorexFrameworkRepositoryFolders.TabsFolder.RxTabcontrol">
+            <summary>
+            The RxTabcontrol item.
+            </summary>
+        </member>
+        <member name="P:RanorexFramework.Repository.RanorexFrameworkRepositoryFolders.TabsFolder.RxTabcontrolInfo">
+            <summary>
+            The RxTabcontrol item info.
+            </summary>
+        </member>
+        <member name="T:RanorexFramework.Repository.RanorexFrameworkRepositoryFolders.IntroductionFolder">
+            <summary>
+            The IntroductionFolder folder.
+            </summary>
+        </member>
+        <member name="M:RanorexFramework.Repository.RanorexFrameworkRepositoryFolders.IntroductionFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Introduction  folder.
+            </summary>
+        </member>
+        <member name="P:RanorexFramework.Repository.RanorexFrameworkRepositoryFolders.IntroductionFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:RanorexFramework.Repository.RanorexFrameworkRepositoryFolders.IntroductionFolder.LblWelcomeMessage">
+            <summary>
+            The LblWelcomeMessage item.
+            </summary>
+        </member>
+        <member name="P:RanorexFramework.Repository.RanorexFrameworkRepositoryFolders.IntroductionFolder.LblWelcomeMessageInfo">
+            <summary>
+            The LblWelcomeMessage item info.
+            </summary>
+        </member>
+        <member name="P:RanorexFramework.Repository.RanorexFrameworkRepositoryFolders.IntroductionFolder.BtnSubmitUserName">
+            <summary>
+            The BtnSubmitUserName item.
+            </summary>
+        </member>
+        <member name="P:RanorexFramework.Repository.RanorexFrameworkRepositoryFolders.IntroductionFolder.BtnSubmitUserNameInfo">
+            <summary>
+            The BtnSubmitUserName item info.
+            </summary>
+        </member>
+        <member name="P:RanorexFramework.Repository.RanorexFrameworkRepositoryFolders.IntroductionFolder.TxtUserName">
+            <summary>
+            The TxtUserName item.
+            </summary>
+        </member>
+        <member name="P:RanorexFramework.Repository.RanorexFrameworkRepositoryFolders.IntroductionFolder.TxtUserNameInfo">
+            <summary>
+            The TxtUserName item info.
+            </summary>
+        </member>
+        <member name="P:RanorexFramework.Repository.RanorexFrameworkRepositoryFolders.IntroductionFolder.RxLinkBtnReset">
+            <summary>
+            The RxLinkBtnReset item.
+            </summary>
+        </member>
+        <member name="P:RanorexFramework.Repository.RanorexFrameworkRepositoryFolders.IntroductionFolder.RxLinkBtnResetInfo">
+            <summary>
+            The RxLinkBtnReset item info.
+            </summary>
+        </member>
+        <member name="T:RanorexFramework.Repository.RanorexFrameworkRepositoryFolders.Test_DatabaseFolder">
+            <summary>
+            The Test_DatabaseFolder folder.
+            </summary>
+        </member>
+        <member name="M:RanorexFramework.Repository.RanorexFrameworkRepositoryFolders.Test_DatabaseFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Test_Database  folder.
+            </summary>
+        </member>
+        <member name="P:RanorexFramework.Repository.RanorexFrameworkRepositoryFolders.Test_DatabaseFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:RanorexFramework.Repository.RanorexFrameworkRepositoryFolders.Test_DatabaseFolder.Department">
+            <summary>
+            The Department item.
+            </summary>
+        </member>
+        <member name="P:RanorexFramework.Repository.RanorexFrameworkRepositoryFolders.Test_DatabaseFolder.DepartmentInfo">
+            <summary>
+            The Department item info.
+            </summary>
+        </member>
+        <member name="P:RanorexFramework.Repository.RanorexFrameworkRepositoryFolders.Test_DatabaseFolder.Age">
+            <summary>
+            The Age item.
+            </summary>
+        </member>
+        <member name="P:RanorexFramework.Repository.RanorexFrameworkRepositoryFolders.Test_DatabaseFolder.AgeInfo">
+            <summary>
+            The Age item info.
+            </summary>
+        </member>
+        <member name="P:RanorexFramework.Repository.RanorexFrameworkRepositoryFolders.Test_DatabaseFolder.GenderFemale">
+            <summary>
+            The GenderFemale item.
+            </summary>
+        </member>
+        <member name="P:RanorexFramework.Repository.RanorexFrameworkRepositoryFolders.Test_DatabaseFolder.GenderFemaleInfo">
+            <summary>
+            The GenderFemale item info.
+            </summary>
+        </member>
+        <member name="P:RanorexFramework.Repository.RanorexFrameworkRepositoryFolders.Test_DatabaseFolder.GenderMale">
+            <summary>
+            The GenderMale item.
+            </summary>
+        </member>
+        <member name="P:RanorexFramework.Repository.RanorexFrameworkRepositoryFolders.Test_DatabaseFolder.GenderMaleInfo">
+            <summary>
+            The GenderMale item info.
+            </summary>
+        </member>
+        <member name="P:RanorexFramework.Repository.RanorexFrameworkRepositoryFolders.Test_DatabaseFolder.BtnAddPerson">
+            <summary>
+            The BtnAddPerson item.
+            </summary>
+        </member>
+        <member name="P:RanorexFramework.Repository.RanorexFrameworkRepositoryFolders.Test_DatabaseFolder.BtnAddPersonInfo">
+            <summary>
+            The BtnAddPerson item info.
+            </summary>
+        </member>
+        <member name="P:RanorexFramework.Repository.RanorexFrameworkRepositoryFolders.Test_DatabaseFolder.DatabaseList">
+            <summary>
+            The DatabaseList item.
+            </summary>
+        </member>
+        <member name="P:RanorexFramework.Repository.RanorexFrameworkRepositoryFolders.Test_DatabaseFolder.DatabaseListInfo">
+            <summary>
+            The DatabaseList item info.
+            </summary>
+        </member>
+        <member name="P:RanorexFramework.Repository.RanorexFrameworkRepositoryFolders.Test_DatabaseFolder.BtnDeletePerson">
+            <summary>
+            The BtnDeletePerson item.
+            </summary>
+        </member>
+        <member name="P:RanorexFramework.Repository.RanorexFrameworkRepositoryFolders.Test_DatabaseFolder.BtnDeletePersonInfo">
+            <summary>
+            The BtnDeletePerson item info.
+            </summary>
+        </member>
+        <member name="P:RanorexFramework.Repository.RanorexFrameworkRepositoryFolders.Test_DatabaseFolder.TxtFirstName">
+            <summary>
+            The TxtFirstName item.
+            </summary>
+        </member>
+        <member name="P:RanorexFramework.Repository.RanorexFrameworkRepositoryFolders.Test_DatabaseFolder.TxtFirstNameInfo">
+            <summary>
+            The TxtFirstName item info.
+            </summary>
+        </member>
+        <member name="P:RanorexFramework.Repository.RanorexFrameworkRepositoryFolders.Test_DatabaseFolder.TxtLastName">
+            <summary>
+            The TxtLastName item.
+            </summary>
+        </member>
+        <member name="P:RanorexFramework.Repository.RanorexFrameworkRepositoryFolders.Test_DatabaseFolder.TxtLastNameInfo">
+            <summary>
+            The TxtLastName item info.
+            </summary>
+        </member>
+        <member name="T:__RxMain.__RxProgram">
+            <summary>
+            Modified Program class that ensures that the Ranorex System gets initialized and cleaned up
+            correctly. This file is auto-generated during project build. This class will invoke the
+            original 'Main' method implementation as needed.
+            </summary>
+        </member>
+        <member name="M:__RxMain.__RxProgram.Main(System.String[])">
+            <summary>
+            The entry point of the application.
+            </summary>
+            <param name="args">Contains any number of command line arguments.</param>
+            <returns>The return value of the projects original 'Main' implementation.</returns>
+        </member>
+    </members>
+</doc>

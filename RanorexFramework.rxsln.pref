@@ -1,0 +1,21 @@
+﻿<Properties>
+  <Array name="active" />
+  <ActiveConfiguration value="Debug" />
+  <ActivePlatform value="x86" />
+  <Array name="bookmarks" />
+  <Array name="files" />
+  <SerializedValue name="ModuleBrowserState">
+    <ArrayOfString xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <string>{708A5B3C-6251-48DC-B0FE-19606414E284}</string>
+      <string>6e12a760-6636-488c-b3e9-7d256aa61ae5</string>
+      <string>60513a05-eab7-41e7-8c10-e51c735edc2e</string>
+      <string>ce9e68a8-139d-4245-94ff-f32c88b0ef5d</string>
+      <string>ec7e0709-4a98-451a-9c51-107a42bd51a1</string>
+      <string>cdac7063-daea-4821-8768-302041cb3763</string>
+      <string>2c8fd2cc-14e3-4ae4-8192-07a8a54132b2</string>
+      <string>c7115219-2902-4ba6-a588-d1f6e79bd106</string>
+    </ArrayOfString>
+  </SerializedValue>
+  <ProjectBrowserState value="[Solution RanorexFramework[RanorexFramework[]]]&#xD;&#xA;Solution RanorexFramework\RanorexFramework\Pages&#xD;&#xA;Solution RanorexFramework" />
+  <StartupProject value="{708A5B3C-6251-48DC-B0FE-19606414E284}" />
+</Properties>

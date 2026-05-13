@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="d9dd5227-d0d3-47cc-9fde-3eef4cccd960"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="StartAUT"
+	namespace="RanorexFramework.Pages">
+	</codegen>
+	<variables>
+		<var
+		id="37dc5c0a-997f-4e14-8b37-a17864c06e2f"
+		name="StartAutProcessIDVar">
+		</var>
+	</variables>
+	<recorditems>
+		<runapprecorditem
+		enabled="True"
+		maximized="False"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="ReturnVariable"
+				variable="StartAutProcessIDVar">
+				</binding>
+			</bindings>
+			<filename>
+				&quot;C:\Users\JamesFornis\Documents\Ranorex\RanorexStudio Projects\RanorexFramework\RanorexFramework\Applications\RxDemoApp.exe&quot;
+			</filename>
+			<workingdir>
+				C:\Users\Jos\Documents\Ranorex\RanorexStudio Projects\RanorexFramework\RanorexFramework\Applications
+			</workingdir>
+			<args>
+			</args>
+		</runapprecorditem>
+	</recorditems>
+	<repository
+	id="be797b57-07ce-4e01-b718-cda0e1dc5070"
+	name="RanorexFrameworkRepository"
+	relativepath="..\Repository\RanorexFrameworkRepository.rxrep">
+		<codegen
+		classname="RanorexFrameworkRepository"
+		namespace="RanorexFramework.Repository">
+		</codegen>
+		<rootfolder
+		id="21d1b953-4c62-4f21-a4ce-cff2ddc0999b"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		StartAUT.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>
