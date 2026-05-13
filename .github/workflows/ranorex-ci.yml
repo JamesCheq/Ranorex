@@ -52,6 +52,12 @@ jobs:
           Start-Sleep -Seconds 5
 
           foreach ($suite in $suites) {
+              Write-Host "=============================="
               Write-Host "Running suite: $($suite.FullName)"
-              & $runner.FullName $suite.FullName "/reportfile:$workspace\TestReport_$($suite.BaseName).rxlog.html"
+
+              $report = "$workspace\TestReport_$($suite.BaseName).rxlog.html"
+
+              & $runner.FullName $suite.FullName "/reportfile=$report"
+
+              Write-Host "Report saved to: $report"
           }
