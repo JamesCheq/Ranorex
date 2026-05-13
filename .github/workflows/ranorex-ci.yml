@@ -48,12 +48,10 @@ jobs:
           $suites = Get-ChildItem $workspace -Recurse -Filter *.rxtst |
                     Where-Object { $_.FullName -notlike "*bin*" }
 
-          if (!$runner) {
-              Write-Host "Runner not found"
-              exit 1
-          }
+          Start-Process "$workspace\RanorexFramework\Applications\RxDemoApp.exe"
+          Start-Sleep -Seconds 5
 
           foreach ($suite in $suites) {
               Write-Host "Running suite: $($suite.FullName)"
-              & $runner.FullName $suite.FullName /reportfile="$workspace\TestReport_$($suite.BaseName).rxlog.html"
+              & $runner.FullName $suite.FullName "/reportfile:$workspace\TestReport_$($suite.BaseName).rxlog.html"
           }
