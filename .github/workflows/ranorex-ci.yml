@@ -32,11 +32,6 @@ jobs:
         run: |
           Get-ChildItem RanorexFramework\bin\Debug -Recurse
 
-      - name: Debug test files
-        run: |
-          Get-ChildItem $env:GITHUB_WORKSPACE -Recurse -Filter *.rxtst
-          Get-ChildItem $env:GITHUB_WORKSPACE -Recurse -Filter *.exe
-
       - name: Run Ranorex Tests
         run: |
           $workspace = $env:GITHUB_WORKSPACE
