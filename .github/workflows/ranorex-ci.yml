@@ -41,18 +41,20 @@ jobs:
         run: |
           $workspace = $env:GITHUB_WORKSPACE
 
-          $runner = Get-ChildItem $workspace -Recurse -Filter RanorexFramework.exe |
-                    Where-Object { $_.FullName -like "*bin*Debug*" } |
+          $suite = Join-Path $workspace "RanorexFramework\RanorexFramework.rxtst"
+
+          $runner = Get-ChildItem $workspace -Recurse -Filter *.exe |
+                    Where-Object { $_.Name -like "*RanorexFramework*.exe" } |
                     Select-Object -First 1
 
-          $suites = Get-ChildItem $workspace\RanorexFramework -Filter *.rxtst
-
-          if (!$runner) {
-              Write-Host "Runner not found"
+          if (!(Test-Path $suite)) {
+              Write-Host "Suite NOT FOUND: $suite"
               exit 1
           }
 
-          foreach ($suite in $suites) {
-              Write-Host "Running: $($suite.Name)"
-              & $runner.FullName $suite.FullName /reportfile="$workspace\TestReport_$($suite.BaseName).rxlog.html"
-}
+          if (!$runner) {
+              Write-Host "Runner EXE NOT FOUND"
+              exit 1
+          }
+
+          & $runner.FullName $suite /reportfile="TestReport.rxlog.html"
