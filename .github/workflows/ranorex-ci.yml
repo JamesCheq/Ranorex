@@ -26,9 +26,7 @@ jobs:
 
       - name: Build solution
         run: |
-          msbuild RanorexFramework.sln `
-          /p:Configuration=Debug `
-          /p:Platform="Any CPU"
+          msbuild RanorexFramework.sln /p:Configuration=Debug
 
       - name: Debug output (check build artifacts)
         run: |
