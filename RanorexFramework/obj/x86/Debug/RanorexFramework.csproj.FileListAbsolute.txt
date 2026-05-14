@@ -85,3 +85,5 @@ C:\2026\Ranorex\RanorexFramework\RanorexFramework\bin\Debug\TS001_Introduction.r
 C:\2026\Ranorex\RanorexFramework\RanorexFramework\bin\Debug\TS002_TestDatabase.rxtst
 C:\Users\JamesFornis\Documents\Ranorex\RanorexStudio Projects\RanorexFramework\RanorexFramework\bin\Debug\TS001_Introduction.rxtst
 C:\Users\JamesFornis\Documents\Ranorex\RanorexStudio Projects\RanorexFramework\RanorexFramework\bin\Debug\TS002_TestDatabase.rxtst
+C:\Users\JamesFornis\Documents\Ranorex\RanorexStudio Projects\RanorexFramework\RanorexFramework\bin\Debug\TestData\TestData.xlsx
+C:\Users\JamesFornis\Documents\Ranorex\RanorexStudio Projects\RanorexFramework\RanorexFramework\bin\Debug\TestData\TestData1.xlsx

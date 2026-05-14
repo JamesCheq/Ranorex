@@ -154,7 +154,7 @@
 	</testsuiteentryhierarchy>
 	<datasources>
 		<DataSource
-		filename="..\..\TestData\TestData.xlsx"
+		filename="TestData\TestData.xlsx"
 		id="4fa60a03-d054-44fa-917c-ce7933b8f5d3"
 		includefile="Unchecked"
 		lastknownrowcount="1"

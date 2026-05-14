@@ -45,7 +45,7 @@ mode="Desktop">
 				RxDemoApp.exe
 			</filename>
 			<workingdir>
-				..\..\Applications
+				C:\Users\JamesFornis\Documents\Ranorex\RanorexStudio Projects\RanorexFramework\RanorexFramework\Applications
 			</workingdir>
 			<args>
 			</args>

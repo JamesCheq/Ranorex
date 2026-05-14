@@ -93,7 +93,7 @@ namespace RanorexFramework.Pages
             Init();
 
             Report.Log(ReportLevel.Info, "Application", "Run application 'RxDemoApp.exe' in normal mode. Return value bound to $StartAutProcessIDVar.", new RecordItemIndex(0));
-            StartAutProcessIDVar = ValueConverter.ToString(Host.Local.RunApplication("RxDemoApp.exe", "", "..\\..\\Applications", false));
+            StartAutProcessIDVar = ValueConverter.ToString(Host.Local.RunApplication("RxDemoApp.exe", "", "C:\\Users\\JamesFornis\\Documents\\Ranorex\\RanorexStudio Projects\\RanorexFramework\\RanorexFramework\\Applications", false));
             Delay.Milliseconds(0);
             
         }
