@@ -1,10 +1,5 @@
 [
   {
-    "Enabled": "False",
-    "TestSuite": "TS001",
-    "RunConfig": "TestRun"
-  },
-  {
     "Enabled": "True",
     "TestSuite": "TS001_Introduction",
     "RunConfig": "TestRun"

@@ -14,10 +14,8 @@ C:\Users\Jos\Documents\Ranorex\RanorexStudio Projects\RanorexFramework\RanorexFr
 C:\Users\Jos\Documents\Ranorex\RanorexStudio Projects\RanorexFramework\RanorexFramework\bin\Debug\RanorexFramework.rxsqc
 C:\Users\Jos\Documents\Ranorex\RanorexStudio Projects\RanorexFramework\RanorexFramework\bin\Debug\TS001.rxtst
 C:\Users\Jos\Documents\Ranorex\RanorexStudio Projects\RanorexFramework\RanorexFramework\bin\Debug\TS003.rxtst
-C:\Users\JamesFornis\Documents\Ranorex\RanorexStudio Projects\RanorexFramework\RanorexFramework\bin\Debug\TS002.rxtst
 C:\Users\JamesFornis\Documents\Ranorex\RanorexStudio Projects\RanorexFramework\RanorexFramework\bin\Debug\RanorexFramework.rxsqc
 C:\Users\JamesFornis\Documents\Ranorex\RanorexStudio Projects\RanorexFramework\RanorexFramework\bin\Debug\RanorexFramework.rxtmg
-C:\Users\JamesFornis\Documents\Ranorex\RanorexStudio Projects\RanorexFramework\RanorexFramework\bin\Debug\TS001.rxtst
 C:\Users\JamesFornis\Documents\Ranorex\RanorexStudio Projects\RanorexFramework\RanorexFramework\bin\Debug\RanorexFramework.exe.config
 C:\Users\JamesFornis\Documents\Ranorex\RanorexStudio Projects\RanorexFramework\RanorexFramework\bin\Debug\RanorexFramework.xml
 C:\Users\JamesFornis\Documents\Ranorex\RanorexStudio Projects\RanorexFramework\RanorexFramework\bin\Debug\RanorexFramework.exe
@@ -85,3 +83,5 @@ C:\2026\Ranorex\RanorexFramework\RanorexFramework\obj\x86\Debug\RanorexFramework
 C:\2026\Ranorex\RanorexFramework\RanorexFramework\obj\x86\Debug\RanorexFramework.pdb
 C:\2026\Ranorex\RanorexFramework\RanorexFramework\bin\Debug\TS001_Introduction.rxtst
 C:\2026\Ranorex\RanorexFramework\RanorexFramework\bin\Debug\TS002_TestDatabase.rxtst
+C:\Users\JamesFornis\Documents\Ranorex\RanorexStudio Projects\RanorexFramework\RanorexFramework\bin\Debug\TS001_Introduction.rxtst
+C:\Users\JamesFornis\Documents\Ranorex\RanorexStudio Projects\RanorexFramework\RanorexFramework\bin\Debug\TS002_TestDatabase.rxtst

@@ -329,6 +329,12 @@
       <repoid>be797b57-07ce-4e01-b718-cda0e1dc5070</repoid>
       <reporootid>21d1b953-4c62-4f21-a4ce-cff2ddc0999b</reporootid>
     </None>
+    <None Include="TestData\TestData.xlsx">
+      <id>934603ec-25a6-4031-b91f-0c056f9e8f42</id>
+    </None>
+    <None Include="TestData\TestData1.xlsx">
+      <id>50898110-d0b5-4d22-9051-238c8db614e8</id>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Content Include="RanorexFramework.cd">
