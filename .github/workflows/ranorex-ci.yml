@@ -37,6 +37,10 @@ jobs:
           Get-ChildItem $env:GITHUB_WORKSPACE -Recurse -Filter *.rxtst
           Get-ChildItem $env:GITHUB_WORKSPACE -Recurse -Filter *.exe
 
+      - name: Debug Excel file
+        run: |
+          Get-ChildItem $env:GITHUB_WORKSPACE -Recurse -Filter *.xlsx
+
       - name: Run Ranorex Tests
         run: |
           $workspace = $env:GITHUB_WORKSPACE
@@ -62,5 +66,5 @@ jobs:
                   /rf $report
 
               Write-Host "Report generated: $report"
-              
+
           }
