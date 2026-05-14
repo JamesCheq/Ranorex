@@ -353,6 +353,7 @@ namespace RanorexFramework.Repository
             RepoItemInfo _btndeletepersonInfo;
             RepoItemInfo _txtfirstnameInfo;
             RepoItemInfo _txtlastnameInfo;
+            RepoItemInfo _lblnumberofpersonsnumberInfo;
 
             /// <summary>
             /// Creates a new Test_Database  folder.
@@ -369,6 +370,7 @@ namespace RanorexFramework.Repository
                 _btndeletepersonInfo = new RepoItemInfo(this, "BtnDeletePerson", "?/?/tabpage[@controlname='RxTabStandard']/button[@controlname='btnDeletePerson']", "?/?/tabpage[@controlname='RxTabStandard']", 30000, null, "e20fb400-490d-4bbd-a3db-b392c991ffb3");
                 _txtfirstnameInfo = new RepoItemInfo(this, "TxtFirstName", "?/?/tabpage[@controlname='RxTabStandard']/text[@controlname='txtFirstName']", ".//text[@controlname='txtFirstName']", 30000, null, "d210e0ea-7580-41ba-b114-0b7ae1a2e499");
                 _txtlastnameInfo = new RepoItemInfo(this, "TxtLastName", "?/?/tabpage[@controlname='RxTabStandard']/text[@controlname='txtLastName']", ".//text[@controlname='txtLastName']", 30000, null, "2b3cda5d-e300-4618-bf91-31accf564f40");
+                _lblnumberofpersonsnumberInfo = new RepoItemInfo(this, "LblNumberOfPersonsNumber", "?/?/tabpage[@controlname='RxTabStandard']/text[@controlname='lblNumberOfPersonsNumber']", ".//text[@controlname='lblNumberOfPersonsNumber']", 30000, null, "fdeb7cf2-7b86-40b0-97e8-26ce4a8fb887");
             }
 
             /// <summary>
@@ -596,6 +598,30 @@ namespace RanorexFramework.Repository
                 get
                 {
                     return _txtlastnameInfo;
+                }
+            }
+
+            /// <summary>
+            /// The LblNumberOfPersonsNumber item.
+            /// </summary>
+            [RepositoryItem("fdeb7cf2-7b86-40b0-97e8-26ce4a8fb887")]
+            public virtual Ranorex.Text LblNumberOfPersonsNumber
+            {
+                get
+                {
+                    return _lblnumberofpersonsnumberInfo.CreateAdapter<Ranorex.Text>(true);
+                }
+            }
+
+            /// <summary>
+            /// The LblNumberOfPersonsNumber item info.
+            /// </summary>
+            [RepositoryItemInfo("fdeb7cf2-7b86-40b0-97e8-26ce4a8fb887")]
+            public virtual RepoItemInfo LblNumberOfPersonsNumberInfo
+            {
+                get
+                {
+                    return _lblnumberofpersonsnumberInfo;
                 }
             }
         }

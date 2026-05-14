@@ -7,7 +7,7 @@ namespace MyTest1.Helpers
 {
     public class ExcelHelper
     {
-        private static string filePath = @"C:\Users\JamesFornis\Documents\Ranorex\RanorexStudio Projects\RanorexFramework\RanorexFramework\TestData\TestData.xlsx";
+        private static string filePath = @"TestData\TestData.xlsx";
 
         // 🔹 Get value by column name and row index
         public static string GetValue(string sheetName, string columnName, int rowIndex)

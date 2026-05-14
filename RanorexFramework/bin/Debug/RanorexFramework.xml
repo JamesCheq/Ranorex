@@ -45,55 +45,37 @@
             instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
             that will in turn invoke this method.</remarks>
         </member>
-        <member name="T:RanorexFramework.Modules.Coded_StartAUT_Browser">
-            <summary>
-            Description of Coded_StartAUT_Browser.
-            </summary>
-        </member>
-        <member name="M:RanorexFramework.Modules.Coded_StartAUT_Browser.#ctor">
-            <summary>
-            Constructs a new instance.
-            </summary>
-        </member>
-        <member name="M:RanorexFramework.Modules.Coded_StartAUT_Browser.Ranorex#Core#Testing#ITestModule#Run">
-            <summary>
-            Performs the playback of actions in this module.
-            </summary>
-            <remarks>You should not call this method directly, instead pass the module
-            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
-            that will in turn invoke this method.</remarks>
-        </member>
-        <member name="T:RanorexFramework.Pages.CloseAUT">
+        <member name="T:RanorexFramework.Pages.MOD_CloseAUT">
              <summary>
-            The CloseAUT recording.
+            The MOD_CloseAUT recording.
              </summary>
         </member>
-        <member name="F:RanorexFramework.Pages.CloseAUT.repo">
+        <member name="F:RanorexFramework.Pages.MOD_CloseAUT.repo">
             <summary>
             Holds an instance of the global::RanorexFramework.Repository.RanorexFrameworkRepository repository.
             </summary>
         </member>
-        <member name="M:RanorexFramework.Pages.CloseAUT.#ctor">
+        <member name="M:RanorexFramework.Pages.MOD_CloseAUT.#ctor">
             <summary>
             Constructs a new instance.
             </summary>
         </member>
-        <member name="P:RanorexFramework.Pages.CloseAUT.Instance">
+        <member name="P:RanorexFramework.Pages.MOD_CloseAUT.Instance">
             <summary>
             Gets a static instance of this recording.
             </summary>
         </member>
-        <member name="P:RanorexFramework.Pages.CloseAUT.CloseAutProcessIDVar">
+        <member name="P:RanorexFramework.Pages.MOD_CloseAUT.CloseAutProcessIDVar">
             <summary>
             Gets or sets the value of variable CloseAutProcessIDVar.
             </summary>
         </member>
-        <member name="M:RanorexFramework.Pages.CloseAUT.Start">
+        <member name="M:RanorexFramework.Pages.MOD_CloseAUT.Start">
             <summary>
-            Starts the replay of the static recording <see cref="P:RanorexFramework.Pages.CloseAUT.Instance"/>.
+            Starts the replay of the static recording <see cref="P:RanorexFramework.Pages.MOD_CloseAUT.Instance"/>.
             </summary>
         </member>
-        <member name="M:RanorexFramework.Pages.CloseAUT.Ranorex#Core#Testing#ITestModule#Run">
+        <member name="M:RanorexFramework.Pages.MOD_CloseAUT.Ranorex#Core#Testing#ITestModule#Run">
             <summary>
             Performs the playback of actions in this recording.
             </summary>
@@ -101,82 +83,43 @@
             instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
             that will in turn invoke this method.</remarks>
         </member>
-        <member name="M:RanorexFramework.Pages.CloseAUT.Init">
+        <member name="M:RanorexFramework.Pages.MOD_CloseAUT.Init">
             <summary>
             This method gets called right after the recording has been started.
             It can be used to execute recording specific initialization code.
             </summary>
         </member>
-        <member name="T:RanorexFramework.Pages.Introduction.EnterName">
+        <member name="T:RanorexFramework.Pages.Introduction.MOD_EnterName">
              <summary>
-            The EnterName recording.
+            The MOD_EnterName recording.
              </summary>
         </member>
-        <member name="F:RanorexFramework.Pages.Introduction.EnterName.repo">
+        <member name="F:RanorexFramework.Pages.Introduction.MOD_EnterName.repo">
             <summary>
             Holds an instance of the global::RanorexFramework.Repository.RanorexFrameworkRepository repository.
             </summary>
         </member>
-        <member name="M:RanorexFramework.Pages.Introduction.EnterName.#ctor">
+        <member name="M:RanorexFramework.Pages.Introduction.MOD_EnterName.#ctor">
             <summary>
             Constructs a new instance.
             </summary>
         </member>
-        <member name="P:RanorexFramework.Pages.Introduction.EnterName.Instance">
+        <member name="P:RanorexFramework.Pages.Introduction.MOD_EnterName.Instance">
             <summary>
             Gets a static instance of this recording.
             </summary>
         </member>
-        <member name="P:RanorexFramework.Pages.Introduction.EnterName.SampleName">
+        <member name="P:RanorexFramework.Pages.Introduction.MOD_EnterName.SampleName">
             <summary>
             Gets or sets the value of variable SampleName.
             </summary>
         </member>
-        <member name="M:RanorexFramework.Pages.Introduction.EnterName.Start">
+        <member name="M:RanorexFramework.Pages.Introduction.MOD_EnterName.Start">
             <summary>
-            Starts the replay of the static recording <see cref="P:RanorexFramework.Pages.Introduction.EnterName.Instance"/>.
+            Starts the replay of the static recording <see cref="P:RanorexFramework.Pages.Introduction.MOD_EnterName.Instance"/>.
             </summary>
         </member>
-        <member name="M:RanorexFramework.Pages.Introduction.EnterName.Ranorex#Core#Testing#ITestModule#Run">
-            <summary>
-            Performs the playback of actions in this recording.
-            </summary>
-            <remarks>You should not call this method directly, instead pass the module
-            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
-            that will in turn invoke this method.</remarks>
-        </member>
-        <member name="M:RanorexFramework.Pages.Introduction.EnterName.Init">
-            <summary>
-            This method gets called right after the recording has been started.
-            It can be used to execute recording specific initialization code.
-            </summary>
-        </member>
-        <member name="T:RanorexFramework.Pages.Introduction.ValidationBanner">
-             <summary>
-            The ValidationBanner recording.
-             </summary>
-        </member>
-        <member name="F:RanorexFramework.Pages.Introduction.ValidationBanner.repo">
-            <summary>
-            Holds an instance of the global::RanorexFramework.Repository.RanorexFrameworkRepository repository.
-            </summary>
-        </member>
-        <member name="M:RanorexFramework.Pages.Introduction.ValidationBanner.#ctor">
-            <summary>
-            Constructs a new instance.
-            </summary>
-        </member>
-        <member name="P:RanorexFramework.Pages.Introduction.ValidationBanner.Instance">
-            <summary>
-            Gets a static instance of this recording.
-            </summary>
-        </member>
-        <member name="M:RanorexFramework.Pages.Introduction.ValidationBanner.Start">
-            <summary>
-            Starts the replay of the static recording <see cref="P:RanorexFramework.Pages.Introduction.ValidationBanner.Instance"/>.
-            </summary>
-        </member>
-        <member name="M:RanorexFramework.Pages.Introduction.ValidationBanner.Ranorex#Core#Testing#ITestModule#Run">
+        <member name="M:RanorexFramework.Pages.Introduction.MOD_EnterName.Ranorex#Core#Testing#ITestModule#Run">
             <summary>
             Performs the playback of actions in this recording.
             </summary>
@@ -184,43 +127,82 @@
             instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
             that will in turn invoke this method.</remarks>
         </member>
-        <member name="M:RanorexFramework.Pages.Introduction.ValidationBanner.Init">
+        <member name="M:RanorexFramework.Pages.Introduction.MOD_EnterName.Init">
             <summary>
             This method gets called right after the recording has been started.
             It can be used to execute recording specific initialization code.
             </summary>
         </member>
-        <member name="T:RanorexFramework.Pages.StartAUT">
+        <member name="T:RanorexFramework.Pages.Introduction.MOD_ValidateBanner">
              <summary>
-            The StartAUT recording.
+            The MOD_ValidateBanner recording.
              </summary>
         </member>
-        <member name="F:RanorexFramework.Pages.StartAUT.repo">
+        <member name="F:RanorexFramework.Pages.Introduction.MOD_ValidateBanner.repo">
             <summary>
             Holds an instance of the global::RanorexFramework.Repository.RanorexFrameworkRepository repository.
             </summary>
         </member>
-        <member name="M:RanorexFramework.Pages.StartAUT.#ctor">
+        <member name="M:RanorexFramework.Pages.Introduction.MOD_ValidateBanner.#ctor">
             <summary>
             Constructs a new instance.
             </summary>
         </member>
-        <member name="P:RanorexFramework.Pages.StartAUT.Instance">
+        <member name="P:RanorexFramework.Pages.Introduction.MOD_ValidateBanner.Instance">
             <summary>
             Gets a static instance of this recording.
             </summary>
         </member>
-        <member name="P:RanorexFramework.Pages.StartAUT.StartAutProcessIDVar">
+        <member name="M:RanorexFramework.Pages.Introduction.MOD_ValidateBanner.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:RanorexFramework.Pages.Introduction.MOD_ValidateBanner.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:RanorexFramework.Pages.Introduction.MOD_ValidateBanner.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:RanorexFramework.Pages.Introduction.MOD_ValidateBanner.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:RanorexFramework.Pages.MOD_StartAUT">
+             <summary>
+            The MOD_StartAUT recording.
+             </summary>
+        </member>
+        <member name="F:RanorexFramework.Pages.MOD_StartAUT.repo">
+            <summary>
+            Holds an instance of the global::RanorexFramework.Repository.RanorexFrameworkRepository repository.
+            </summary>
+        </member>
+        <member name="M:RanorexFramework.Pages.MOD_StartAUT.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:RanorexFramework.Pages.MOD_StartAUT.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:RanorexFramework.Pages.MOD_StartAUT.StartAutProcessIDVar">
             <summary>
             Gets or sets the value of variable StartAutProcessIDVar.
             </summary>
         </member>
-        <member name="M:RanorexFramework.Pages.StartAUT.Start">
+        <member name="M:RanorexFramework.Pages.MOD_StartAUT.Start">
             <summary>
-            Starts the replay of the static recording <see cref="P:RanorexFramework.Pages.StartAUT.Instance"/>.
+            Starts the replay of the static recording <see cref="P:RanorexFramework.Pages.MOD_StartAUT.Instance"/>.
             </summary>
         </member>
-        <member name="M:RanorexFramework.Pages.StartAUT.Ranorex#Core#Testing#ITestModule#Run">
+        <member name="M:RanorexFramework.Pages.MOD_StartAUT.Ranorex#Core#Testing#ITestModule#Run">
             <summary>
             Performs the playback of actions in this recording.
             </summary>
@@ -228,63 +210,63 @@
             instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
             that will in turn invoke this method.</remarks>
         </member>
-        <member name="M:RanorexFramework.Pages.StartAUT.Init">
+        <member name="M:RanorexFramework.Pages.MOD_StartAUT.Init">
             <summary>
             This method gets called right after the recording has been started.
             It can be used to execute recording specific initialization code.
             </summary>
         </member>
-        <member name="T:RanorexFramework.Pages.Test_Database.AddDatabaseEntry">
+        <member name="T:RanorexFramework.Pages.Test_Database.MOD_AddDatabaseEntry">
              <summary>
-            The AddDatabaseEntry recording.
+            The MOD_AddDatabaseEntry recording.
              </summary>
         </member>
-        <member name="F:RanorexFramework.Pages.Test_Database.AddDatabaseEntry.repo">
+        <member name="F:RanorexFramework.Pages.Test_Database.MOD_AddDatabaseEntry.repo">
             <summary>
             Holds an instance of the global::RanorexFramework.Repository.RanorexFrameworkRepository repository.
             </summary>
         </member>
-        <member name="M:RanorexFramework.Pages.Test_Database.AddDatabaseEntry.#ctor">
+        <member name="M:RanorexFramework.Pages.Test_Database.MOD_AddDatabaseEntry.#ctor">
             <summary>
             Constructs a new instance.
             </summary>
         </member>
-        <member name="P:RanorexFramework.Pages.Test_Database.AddDatabaseEntry.Instance">
+        <member name="P:RanorexFramework.Pages.Test_Database.MOD_AddDatabaseEntry.Instance">
             <summary>
             Gets a static instance of this recording.
             </summary>
         </member>
-        <member name="P:RanorexFramework.Pages.Test_Database.AddDatabaseEntry.Database_FirstName">
+        <member name="P:RanorexFramework.Pages.Test_Database.MOD_AddDatabaseEntry.Database_FirstName">
             <summary>
             Gets or sets the value of variable Database_FirstName.
             </summary>
         </member>
-        <member name="P:RanorexFramework.Pages.Test_Database.AddDatabaseEntry.Database_LastName">
+        <member name="P:RanorexFramework.Pages.Test_Database.MOD_AddDatabaseEntry.Database_LastName">
             <summary>
             Gets or sets the value of variable Database_LastName.
             </summary>
         </member>
-        <member name="P:RanorexFramework.Pages.Test_Database.AddDatabaseEntry.Database_Department">
+        <member name="P:RanorexFramework.Pages.Test_Database.MOD_AddDatabaseEntry.Database_Department">
             <summary>
             Gets or sets the value of variable Database_Department.
             </summary>
         </member>
-        <member name="P:RanorexFramework.Pages.Test_Database.AddDatabaseEntry.Database_Age">
+        <member name="P:RanorexFramework.Pages.Test_Database.MOD_AddDatabaseEntry.Database_Age">
             <summary>
             Gets or sets the value of variable Database_Age.
             </summary>
         </member>
-        <member name="P:RanorexFramework.Pages.Test_Database.AddDatabaseEntry.Database_Gender">
+        <member name="P:RanorexFramework.Pages.Test_Database.MOD_AddDatabaseEntry.Database_Gender">
             <summary>
             Gets or sets the value of variable Database_Gender.
             </summary>
         </member>
-        <member name="M:RanorexFramework.Pages.Test_Database.AddDatabaseEntry.Start">
+        <member name="M:RanorexFramework.Pages.Test_Database.MOD_AddDatabaseEntry.Start">
             <summary>
-            Starts the replay of the static recording <see cref="P:RanorexFramework.Pages.Test_Database.AddDatabaseEntry.Instance"/>.
+            Starts the replay of the static recording <see cref="P:RanorexFramework.Pages.Test_Database.MOD_AddDatabaseEntry.Instance"/>.
             </summary>
         </member>
-        <member name="M:RanorexFramework.Pages.Test_Database.AddDatabaseEntry.Ranorex#Core#Testing#ITestModule#Run">
+        <member name="M:RanorexFramework.Pages.Test_Database.MOD_AddDatabaseEntry.Ranorex#Core#Testing#ITestModule#Run">
             <summary>
             Performs the playback of actions in this recording.
             </summary>
@@ -292,7 +274,71 @@
             instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
             that will in turn invoke this method.</remarks>
         </member>
-        <member name="M:RanorexFramework.Pages.Test_Database.AddDatabaseEntry.Init">
+        <member name="M:RanorexFramework.Pages.Test_Database.MOD_AddDatabaseEntry.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:RanorexFramework.Pages.Test_Database.MOD_DeleteEntry">
+             <summary>
+            The MOD_DeleteEntry recording.
+             </summary>
+        </member>
+        <member name="F:RanorexFramework.Pages.Test_Database.MOD_DeleteEntry.repo">
+            <summary>
+            Holds an instance of the global::RanorexFramework.Repository.RanorexFrameworkRepository repository.
+            </summary>
+        </member>
+        <member name="M:RanorexFramework.Pages.Test_Database.MOD_DeleteEntry.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:RanorexFramework.Pages.Test_Database.MOD_DeleteEntry.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:RanorexFramework.Pages.Test_Database.MOD_DeleteEntry.Database_FirstName">
+            <summary>
+            Gets or sets the value of variable Database_FirstName.
+            </summary>
+        </member>
+        <member name="P:RanorexFramework.Pages.Test_Database.MOD_DeleteEntry.Database_LastName">
+            <summary>
+            Gets or sets the value of variable Database_LastName.
+            </summary>
+        </member>
+        <member name="P:RanorexFramework.Pages.Test_Database.MOD_DeleteEntry.Database_Department">
+            <summary>
+            Gets or sets the value of variable Database_Department.
+            </summary>
+        </member>
+        <member name="P:RanorexFramework.Pages.Test_Database.MOD_DeleteEntry.Database_Age">
+            <summary>
+            Gets or sets the value of variable Database_Age.
+            </summary>
+        </member>
+        <member name="P:RanorexFramework.Pages.Test_Database.MOD_DeleteEntry.Database_Gender">
+            <summary>
+            Gets or sets the value of variable Database_Gender.
+            </summary>
+        </member>
+        <member name="M:RanorexFramework.Pages.Test_Database.MOD_DeleteEntry.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:RanorexFramework.Pages.Test_Database.MOD_DeleteEntry.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:RanorexFramework.Pages.Test_Database.MOD_DeleteEntry.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:RanorexFramework.Pages.Test_Database.MOD_DeleteEntry.Init">
             <summary>
             This method gets called right after the recording has been started.
             It can be used to execute recording specific initialization code.
@@ -546,6 +592,16 @@
         <member name="P:RanorexFramework.Repository.RanorexFrameworkRepositoryFolders.Test_DatabaseFolder.TxtLastNameInfo">
             <summary>
             The TxtLastName item info.
+            </summary>
+        </member>
+        <member name="P:RanorexFramework.Repository.RanorexFrameworkRepositoryFolders.Test_DatabaseFolder.LblNumberOfPersonsNumber">
+            <summary>
+            The LblNumberOfPersonsNumber item.
+            </summary>
+        </member>
+        <member name="P:RanorexFramework.Repository.RanorexFrameworkRepositoryFolders.Test_DatabaseFolder.LblNumberOfPersonsNumberInfo">
+            <summary>
+            The LblNumberOfPersonsNumber item info.
             </summary>
         </member>
         <member name="T:__RxMain.__RxProgram">

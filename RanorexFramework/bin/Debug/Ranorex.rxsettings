@@ -216,8 +216,8 @@ rxversion="12.0">
 		<pathbuildoptions
 		defcapcost="20"
 		kattr="0.5"
-		kcap="1.0"
-		ksib="10.0"
+		kcap="1"
+		ksib="10"
 		q="0.5">
 			<cap
 			cost="10"

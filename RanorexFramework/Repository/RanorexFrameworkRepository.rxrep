@@ -18,6 +18,7 @@ name="RanorexFrameworkRepository">
 		id="547664e6-4cf3-4efa-ab0b-92a0f641feb9"
 		isrooted="True"
 		name="RxMainFrame"
+		refimgid="b720b256-cd76-4040-8ee9-2884a4eee950"
 		refpath="/form[@controlname='RxMainFrame']"
 		searchtimeout="30000ms"
 		usecache="True">
@@ -122,7 +123,6 @@ name="RanorexFrameworkRepository">
 				id="4996f937-1905-4ec2-bad8-e648ac7b9916"
 				name="GenderFemale"
 				refimgid="63d772e8-169b-4ee6-a3e5-2beacc445986"
-				refpath="/form[@controlname='RxMainFrame']/tabpagelist[@controlname='RxTabcontrol']/tabpage[@controlname='RxTabStandard']/container[@controlname='grpGender']/radiobutton[@controlname='rdbFemale']"
 				robustPath="/form[@controlname='RxMainFrame']//radiobutton[@controlname='rdbFemale']"
 				searchtimeout="30000ms">
 					/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabStandard']/?/?/radiobutton[@controlname='rdbFemale']
@@ -133,7 +133,6 @@ name="RanorexFrameworkRepository">
 				id="04f684f4-3486-4989-931a-2037ef558a4a"
 				name="GenderMale"
 				refimgid="cbe6bc99-93dc-417f-99c2-15629e9083d7"
-				refpath="/form[@controlname='RxMainFrame']/tabpagelist[@controlname='RxTabcontrol']/tabpage[@controlname='RxTabStandard']/container[@controlname='grpGender']/radiobutton[@controlname='rdbMale']"
 				robustPath="/form[@controlname='RxMainFrame']//radiobutton[@controlname='rdbMale']"
 				searchtimeout="30000ms">
 					/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabStandard']/?/?/radiobutton[@controlname='rdbMale']
@@ -144,7 +143,6 @@ name="RanorexFrameworkRepository">
 				id="c7080998-5f90-4f65-9f4b-936ced3b119c"
 				name="BtnAddPerson"
 				refimgid="2b554e29-8ad9-45ff-870a-3ff22bcf00c3"
-				refpath="/form[@controlname='RxMainFrame']/tabpagelist[@controlname='RxTabcontrol']/tabpage[@controlname='RxTabStandard']/button[@controlname='btnAddPerson']"
 				robustPath="/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabStandard']"
 				searchtimeout="30000ms">
 					/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabStandard']/button[@controlname='btnAddPerson']
@@ -155,7 +153,6 @@ name="RanorexFrameworkRepository">
 				id="78a360b1-bc75-4d4b-8331-6acccabc4ebc"
 				name="DatabaseList"
 				refimgid="3df32106-4bfd-4424-9cc8-2891c6c53f3d"
-				refpath="/form[@controlname='RxMainFrame']/tabpagelist[@controlname='RxTabcontrol']/tabpage[@controlname='RxTabStandard']/list[@controlname='lstPersonList']"
 				robustPath="/form[@controlname='RxMainFrame']//list[@controlname='lstPersonList']"
 				searchtimeout="30000ms">
 					/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabStandard']/list[@controlname='lstPersonList']
@@ -166,7 +163,6 @@ name="RanorexFrameworkRepository">
 				id="e20fb400-490d-4bbd-a3db-b392c991ffb3"
 				name="BtnDeletePerson"
 				refimgid="89f7d225-44dc-4c4a-96ca-8056b7fc1f9e"
-				refpath="/form[@controlname='RxMainFrame']/tabpagelist[@controlname='RxTabcontrol']/tabpage[@controlname='RxTabStandard']/button[@controlname='btnDeletePerson']"
 				robustPath="/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabStandard']"
 				searchtimeout="30000ms">
 					/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabStandard']/button[@controlname='btnDeletePerson']
@@ -177,7 +173,6 @@ name="RanorexFrameworkRepository">
 				id="d210e0ea-7580-41ba-b114-0b7ae1a2e499"
 				name="TxtFirstName"
 				refimgid="974c4967-0096-498a-b975-790fd1a194ef"
-				refpath="/form[@controlname='RxMainFrame']/tabpagelist/tabpage/text[@controlname='txtFirstName']"
 				robustPath="/form[@controlname='RxMainFrame']//text[@controlname='txtFirstName']"
 				searchtimeout="30000ms">
 					/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabStandard']/text[@controlname='txtFirstName']
@@ -188,10 +183,20 @@ name="RanorexFrameworkRepository">
 				id="2b3cda5d-e300-4618-bf91-31accf564f40"
 				name="TxtLastName"
 				refimgid="dd06492b-0fcc-42c7-bbe6-03db55cad5cc"
-				refpath="/form[@controlname='RxMainFrame']/tabpagelist/tabpage/text[@controlname='txtLastName']"
 				robustPath="/form[@controlname='RxMainFrame']//text[@controlname='txtLastName']"
 				searchtimeout="30000ms">
 					/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabStandard']/text[@controlname='txtLastName']
+				</item>
+				<item
+				addcaps="text,control,nativewindow"
+				capname="text"
+				id="fdeb7cf2-7b86-40b0-97e8-26ce4a8fb887"
+				name="LblNumberOfPersonsNumber"
+				refimgid="eba009fe-9ae7-4f00-8847-132a83fc4a18"
+				refpath="/form[@controlname='RxMainFrame']/tabpagelist[@controlname='RxTabcontrol']/tabpage[@controlname='RxTabStandard']/text[@controlname='lblNumberOfPersonsNumber']"
+				robustPath="/form[@controlname='RxMainFrame']//text[@controlname='lblNumberOfPersonsNumber']"
+				searchtimeout="30000ms">
+					/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabStandard']/text[@controlname='lblNumberOfPersonsNumber']
 				</item>
 			</folder>
 			<basepath>

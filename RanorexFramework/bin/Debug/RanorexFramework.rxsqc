@@ -1,12 +1,17 @@
 [
   {
     "Enabled": "False",
-    "TestSuite": "TS002",
+    "TestSuite": "TS001",
     "RunConfig": "TestRun"
   },
   {
     "Enabled": "True",
-    "TestSuite": "TS001",
+    "TestSuite": "TS001_Introduction",
+    "RunConfig": "TestRun"
+  },
+  {
+    "Enabled": "True",
+    "TestSuite": "TS002_TestDatabase",
     "RunConfig": "TestRun"
   }
 ]

@@ -49,3 +49,39 @@ C:\Users\JamesFornis\Documents\Ranorex\RanorexStudio Projects\RanorexFramework\R
 C:\Users\JamesFornis\Documents\Ranorex\RanorexStudio Projects\RanorexFramework\RanorexFramework\bin\Debug\Microsoft.IO.RecyclableMemoryStream.xml
 C:\Users\JamesFornis\Documents\Ranorex\RanorexStudio Projects\RanorexFramework\RanorexFramework\bin\Debug\System.Security.Cryptography.Xml.xml
 C:\Users\JamesFornis\Documents\Ranorex\RanorexStudio Projects\RanorexFramework\RanorexFramework\bin\Debug\System.Text.Encoding.CodePages.xml
+C:\2026\Ranorex\RanorexFramework\RanorexFramework\bin\Debug\TS001.rxtst
+C:\2026\Ranorex\RanorexFramework\RanorexFramework\bin\Debug\RanorexFramework.rxsqc
+C:\2026\Ranorex\RanorexFramework\RanorexFramework\bin\Debug\RanorexFramework.rxtmg
+C:\2026\Ranorex\RanorexFramework\RanorexFramework\bin\Debug\RanorexFramework.exe.config
+C:\2026\Ranorex\RanorexFramework\RanorexFramework\bin\Debug\RanorexFramework.xml
+C:\2026\Ranorex\RanorexFramework\RanorexFramework\bin\Debug\RanorexFramework.exe
+C:\2026\Ranorex\RanorexFramework\RanorexFramework\bin\Debug\RanorexFramework.pdb
+C:\2026\Ranorex\RanorexFramework\RanorexFramework\bin\Debug\EPPlus.dll
+C:\2026\Ranorex\RanorexFramework\RanorexFramework\bin\Debug\EPPlus.Interfaces.dll
+C:\2026\Ranorex\RanorexFramework\RanorexFramework\bin\Debug\EPPlus.System.Drawing.dll
+C:\2026\Ranorex\RanorexFramework\RanorexFramework\bin\Debug\ExcelDataReader.DataSet.dll
+C:\2026\Ranorex\RanorexFramework\RanorexFramework\bin\Debug\ExcelDataReader.dll
+C:\2026\Ranorex\RanorexFramework\RanorexFramework\bin\Debug\Microsoft.IO.RecyclableMemoryStream.dll
+C:\2026\Ranorex\RanorexFramework\RanorexFramework\bin\Debug\Ranorex.Core.Resolver.dll
+C:\2026\Ranorex\RanorexFramework\RanorexFramework\bin\Debug\System.Buffers.dll
+C:\2026\Ranorex\RanorexFramework\RanorexFramework\bin\Debug\System.Memory.dll
+C:\2026\Ranorex\RanorexFramework\RanorexFramework\bin\Debug\System.Numerics.Vectors.dll
+C:\2026\Ranorex\RanorexFramework\RanorexFramework\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\2026\Ranorex\RanorexFramework\RanorexFramework\bin\Debug\System.Security.Cryptography.Xml.dll
+C:\2026\Ranorex\RanorexFramework\RanorexFramework\bin\Debug\System.Text.Encoding.CodePages.dll
+C:\2026\Ranorex\RanorexFramework\RanorexFramework\bin\Debug\EPPlus.xml
+C:\2026\Ranorex\RanorexFramework\RanorexFramework\bin\Debug\ExcelDataReader.pdb
+C:\2026\Ranorex\RanorexFramework\RanorexFramework\bin\Debug\ExcelDataReader.xml
+C:\2026\Ranorex\RanorexFramework\RanorexFramework\bin\Debug\ExcelDataReader.DataSet.pdb
+C:\2026\Ranorex\RanorexFramework\RanorexFramework\bin\Debug\ExcelDataReader.DataSet.xml
+C:\2026\Ranorex\RanorexFramework\RanorexFramework\bin\Debug\Microsoft.IO.RecyclableMemoryStream.xml
+C:\2026\Ranorex\RanorexFramework\RanorexFramework\bin\Debug\System.Security.Cryptography.Xml.xml
+C:\2026\Ranorex\RanorexFramework\RanorexFramework\bin\Debug\System.Text.Encoding.CodePages.xml
+C:\2026\Ranorex\RanorexFramework\RanorexFramework\obj\x86\Debug\RanorexFramework.csproj.AssemblyReference.cache
+C:\2026\Ranorex\RanorexFramework\RanorexFramework\obj\x86\Debug\RanorexFramework.exe.config
+C:\2026\Ranorex\RanorexFramework\RanorexFramework\obj\x86\Debug\RanorexFramework.csproj.CoreCompileInputs.cache
+C:\2026\Ranorex\RanorexFramework\RanorexFramework\obj\x86\Debug\RanorexF.9A846CED.Up2Date
+C:\2026\Ranorex\RanorexFramework\RanorexFramework\obj\x86\Debug\RanorexFramework.exe
+C:\2026\Ranorex\RanorexFramework\RanorexFramework\obj\x86\Debug\RanorexFramework.pdb
+C:\2026\Ranorex\RanorexFramework\RanorexFramework\bin\Debug\TS001_Introduction.rxtst
+C:\2026\Ranorex\RanorexFramework\RanorexFramework\bin\Debug\TS002_TestDatabase.rxtst

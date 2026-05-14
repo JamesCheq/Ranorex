@@ -184,65 +184,77 @@
     <Compile Include="Modules\Introduction\Coded_EnterName.cs">
       <id>98ce5e35-be0e-4dda-8c25-725080ffe82c</id>
     </Compile>
-    <Compile Include="Pages\CloseAUT.cs">
-      <DependentUpon>CloseAUT.rxrec</DependentUpon>
+    <Compile Include="Pages\MOD_CloseAUT.cs">
+      <DependentUpon>MOD_CloseAUT.rxrec</DependentUpon>
       <RecorderCode>true</RecorderCode>
       <id>8c845ce9-6bb2-4c6f-a6cd-6d013ec55535</id>
       <BoundTo>4b011a87-cff6-4858-bcd4-07b6d207786f</BoundTo>
     </Compile>
-    <Compile Include="Pages\CloseAUT.UserCode.cs">
-      <DependentUpon>CloseAUT.rxrec</DependentUpon>
+    <Compile Include="Pages\MOD_CloseAUT.UserCode.cs">
+      <DependentUpon>MOD_CloseAUT.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>adac7712-2068-4fe4-975f-116e5154e598</id>
       <BoundTo>4b011a87-cff6-4858-bcd4-07b6d207786f</BoundTo>
     </Compile>
-    <Compile Include="Pages\Introduction\EnterName.cs">
-      <DependentUpon>EnterName.rxrec</DependentUpon>
+    <Compile Include="Pages\Introduction\MOD_EnterName.cs">
+      <DependentUpon>MOD_EnterName.rxrec</DependentUpon>
       <RecorderCode>true</RecorderCode>
       <id>a36be351-b0dd-4ec3-beaf-653ad7d1aadb</id>
       <BoundTo>0fd8ad2a-9490-4abc-8e62-e758e9322fe3</BoundTo>
     </Compile>
-    <Compile Include="Pages\Introduction\EnterName.UserCode.cs">
-      <DependentUpon>EnterName.rxrec</DependentUpon>
+    <Compile Include="Pages\Introduction\MOD_EnterName.UserCode.cs">
+      <DependentUpon>MOD_EnterName.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>00ccab35-d830-4c2f-8d8a-b99f1e9f5d41</id>
       <BoundTo>0fd8ad2a-9490-4abc-8e62-e758e9322fe3</BoundTo>
     </Compile>
-    <Compile Include="Pages\Introduction\ValidationBanner.cs">
+    <Compile Include="Pages\Introduction\MOD_ValidateBanner.cs">
       <BoundTo>1653cef9-44db-4f1b-a438-c607f40da273</BoundTo>
-      <DependentUpon>ValidationBanner.rxrec</DependentUpon>
+      <DependentUpon>MOD_ValidateBanner.rxrec</DependentUpon>
       <RecorderCode>true</RecorderCode>
       <id>59c56037-00aa-4d5b-ae30-2efd0136ff97</id>
     </Compile>
-    <Compile Include="Pages\Introduction\ValidationBanner.UserCode.cs">
+    <Compile Include="Pages\Introduction\MOD_ValidateBanner.UserCode.cs">
       <BoundTo>1653cef9-44db-4f1b-a438-c607f40da273</BoundTo>
-      <DependentUpon>ValidationBanner.rxrec</DependentUpon>
+      <DependentUpon>MOD_ValidateBanner.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>7a11ee81-749f-4630-adff-0e4d9f3c4f43</id>
     </Compile>
-    <Compile Include="Pages\StartAUT.cs">
-      <DependentUpon>StartAUT.rxrec</DependentUpon>
+    <Compile Include="Pages\MOD_StartAUT.cs">
+      <DependentUpon>MOD_StartAUT.rxrec</DependentUpon>
       <RecorderCode>true</RecorderCode>
       <id>840de892-bd05-495a-81ba-59c98cfc7ee4</id>
       <BoundTo>2a05900d-4995-48ef-b419-f41eb5e45d84</BoundTo>
     </Compile>
-    <Compile Include="Pages\StartAUT.UserCode.cs">
-      <DependentUpon>StartAUT.rxrec</DependentUpon>
+    <Compile Include="Pages\MOD_StartAUT.UserCode.cs">
+      <DependentUpon>MOD_StartAUT.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>fe160b1c-2e18-4265-8a99-50f447968199</id>
       <BoundTo>2a05900d-4995-48ef-b419-f41eb5e45d84</BoundTo>
     </Compile>
-    <Compile Include="Pages\Test Database\AddDatabaseEntry.cs">
+    <Compile Include="Pages\Test Database\MOD_AddDatabaseEntry.cs">
       <BoundTo>14a0f27a-bee2-4641-8363-55ededf55d57</BoundTo>
-      <DependentUpon>AddDatabaseEntry.rxrec</DependentUpon>
+      <DependentUpon>MOD_AddDatabaseEntry.rxrec</DependentUpon>
       <RecorderCode>true</RecorderCode>
       <id>022a8eb2-c519-46c3-9afc-0aab0691941d</id>
     </Compile>
-    <Compile Include="Pages\Test Database\AddDatabaseEntry.UserCode.cs">
+    <Compile Include="Pages\Test Database\MOD_AddDatabaseEntry.UserCode.cs">
       <BoundTo>14a0f27a-bee2-4641-8363-55ededf55d57</BoundTo>
-      <DependentUpon>AddDatabaseEntry.rxrec</DependentUpon>
+      <DependentUpon>MOD_AddDatabaseEntry.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>77909fa9-96d2-4678-8264-4ac7ed6f67d5</id>
+    </Compile>
+    <Compile Include="Pages\Test Database\MOD_DeleteEntry.cs">
+      <BoundTo>4e611b11-aed7-456f-a4d5-a613410e4259</BoundTo>
+      <DependentUpon>MOD_DeleteEntry.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>892391ca-50cb-4ebf-ae02-c2d5598f736b</id>
+    </Compile>
+    <Compile Include="Pages\Test Database\MOD_DeleteEntry.UserCode.cs">
+      <BoundTo>4e611b11-aed7-456f-a4d5-a613410e4259</BoundTo>
+      <DependentUpon>MOD_DeleteEntry.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>f540a3f2-79cd-467d-a64c-13857bfc4173</id>
     </Compile>
     <Compile Include="Repository\RanorexFrameworkRepository.cs">
       <DependentUpon>RanorexFrameworkRepository.rxrep</DependentUpon>
@@ -255,13 +267,13 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="TS001.rxtst">
+    <Content Include="TS001_Introduction.rxtst">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      <id>922f668d-2905-4ee1-b680-d7f234fce289</id>
+      <id>d7f0f592-4a67-466f-a439-817dd24739da</id>
     </Content>
-    <Content Include="TS002.rxtst">
+    <Content Include="TS002_TestDatabase.rxtst">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      <id>ab4139db-d7d6-4560-a947-3837c9bf16b9</id>
+      <id>a88fa440-a626-4007-8d10-1345bc24ea31</id>
     </Content>
     <None Include="Applications\RxDemoApp.exe">
       <id>6baab65b-d3e0-4cdc-9c5e-59f1163dbddb</id>
@@ -276,30 +288,35 @@
     <None Include="packages.config">
       <id>6efa23d8-8db9-4372-af2e-20c85969656a</id>
     </None>
-    <None Include="Pages\CloseAUT.rxrec">
+    <None Include="Pages\MOD_CloseAUT.rxrec">
       <BoundTo>bcf6e47e-56d4-4973-9eff-b2cb720de752</BoundTo>
       <id>4b011a87-cff6-4858-bcd4-07b6d207786f</id>
       <recordtableid>b0d4e299-5251-4ef5-b948-c9bcb4f20d3b</recordtableid>
     </None>
-    <None Include="Pages\Introduction\EnterName.rxrec">
+    <None Include="Pages\Introduction\MOD_EnterName.rxrec">
       <id>0fd8ad2a-9490-4abc-8e62-e758e9322fe3</id>
       <recordtableid>01cb9d01-974c-4f21-b9bb-75ee8eeb89e5</recordtableid>
       <BoundTo>bcf6e47e-56d4-4973-9eff-b2cb720de752</BoundTo>
     </None>
-    <None Include="Pages\Introduction\ValidationBanner.rxrec">
+    <None Include="Pages\Introduction\MOD_ValidateBanner.rxrec">
       <BoundTo>bcf6e47e-56d4-4973-9eff-b2cb720de752</BoundTo>
       <id>1653cef9-44db-4f1b-a438-c607f40da273</id>
       <recordtableid>5c678e57-6c22-40fc-abc1-0e9328bd1148</recordtableid>
     </None>
-    <None Include="Pages\StartAUT.rxrec">
+    <None Include="Pages\MOD_StartAUT.rxrec">
       <BoundTo>bcf6e47e-56d4-4973-9eff-b2cb720de752</BoundTo>
       <id>2a05900d-4995-48ef-b419-f41eb5e45d84</id>
       <recordtableid>d9dd5227-d0d3-47cc-9fde-3eef4cccd960</recordtableid>
     </None>
-    <None Include="Pages\Test Database\AddDatabaseEntry.rxrec">
-      <BoundTo>bcf6e47e-56d4-4973-9eff-b2cb720de752</BoundTo>
+    <None Include="Pages\Test Database\MOD_AddDatabaseEntry.rxrec">
       <id>14a0f27a-bee2-4641-8363-55ededf55d57</id>
       <recordtableid>ebe14057-42c6-4e66-9067-d3db8a31bc97</recordtableid>
+      <BoundTo>bcf6e47e-56d4-4973-9eff-b2cb720de752</BoundTo>
+    </None>
+    <None Include="Pages\Test Database\MOD_DeleteEntry.rxrec">
+      <BoundTo>bcf6e47e-56d4-4973-9eff-b2cb720de752</BoundTo>
+      <id>4e611b11-aed7-456f-a4d5-a613410e4259</id>
+      <recordtableid>cb87304c-8524-496f-8b9f-768a1cce6e91</recordtableid>
     </None>
     <None Include="Repository\RanorexFrameworkRepository.rximg">
       <DependentUpon>RanorexFrameworkRepository.rxrep</DependentUpon>

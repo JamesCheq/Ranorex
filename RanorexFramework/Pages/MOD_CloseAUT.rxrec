@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="b0d4e299-5251-4ef5-b948-c9bcb4f20d3b"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="MOD_CloseAUT"
+	namespace="RanorexFramework.Pages">
+	</codegen>
+	<variables>
+		<var
+		id="f51bebf5-6db3-4910-b78a-88d6c87520bb"
+		name="CloseAutProcessIDVar">
+			-1
+		</var>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="500ms"
+		method="CloseWindowByProcessID"
+		optional="False"
+		searchpropertyid="4159ad41-fda2-4e89-8727-92ff79926dc3">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="ProcessID"
+				variable="CloseAutProcessIDVar">
+				</binding>
+			</bindings>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="be797b57-07ce-4e01-b718-cda0e1dc5070"
+	name="RanorexFrameworkRepository"
+	relativepath="..\Repository\RanorexFrameworkRepository.rxrep">
+		<codegen
+		classname="RanorexFrameworkRepository"
+		namespace="RanorexFramework.Repository">
+		</codegen>
+		<rootfolder
+		id="21d1b953-4c62-4f21-a4ce-cff2ddc0999b"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		MOD_CloseAUT.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

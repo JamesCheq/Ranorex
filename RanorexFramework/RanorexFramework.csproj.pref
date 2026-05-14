@@ -1,23 +1,28 @@
 ﻿<Properties>
   <Array name="active">
-    <Element value="Pages\Introduction\EnterName.rxrec" />
+    <Element value="TS001_Introduction.rxtst" />
   </Array>
   <Array name="bookmarks" />
   <Array name="files">
-    <Element value="TS001.rxtst" />
-    <Element value="TS002.rxtst" />
-    <Element value="TS003.rxtst" />
-    <Element value="Pages\Introduction\EnterName.rxrec" />
+    <Element value="Pages\MOD_StartAUT.rxrec" />
+    <Element value="Pages\MOD_StartAUT.cs" />
+    <Element value="TS001_Introduction.rxtst" />
+    <Element value="Repository\RanorexFrameworkRepository.cs" />
+    <Element value="Pages\MOD_StartAUT.UserCode.cs" />
+    <Element value="Pages\MOD_CloseAUT.rxrec" />
+    <Element value="Pages\MOD_CloseAUT.UserCode.cs" />
   </Array>
   <Properties name="projectSavedData">
     <Properties name="customTool">
       <runOnBuild value="False" />
     </Properties>
     <Array name="recentusercodeselections">
+      <Element value="RanorexFramework.Pages.MOD_CloseAUT.CloseApplication()" />
+      <Element value="RanorexFramework.Pages.MOD_CloseAUT.CloseApplication()" />
+      <Element value="RanorexFramework.Pages.MOD_StartAUT.StartApplication()" />
+      <Element value="RanorexFramework.Pages.MOD_StartAUT.StartUAT()" />
+      <Element value="RanorexFramework.Pages.MOD_CloseAUT.CloseUAT()" />
       <Element value="RanorexFramework.Pages.Test_Database.AddDatabaseEntry.Mouse_Click_Gender(RepoItemInfo radiobuttonInfo, String Gender)" />
-      <Element value="RanorexFramework.Pages.Test_Database.AddDatabaseEntry.Mouse_Click_Gender(RepoItemInfo radiobuttonInfo)" />
-      <Element value="RanorexFramework.Pages.Test_Database.AddDatabaseEntry.Mouse_Click_GenderFemale(RepoItemInfo radiobuttonInfo)" />
-      <Element value="RanorexFramework.Pages.Introduction.EnterName.Validate_LblWelcomeMessage(RepoItemInfo textInfo)" />
     </Array>
   </Properties>
 </Properties>

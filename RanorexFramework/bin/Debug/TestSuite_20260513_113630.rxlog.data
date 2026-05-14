@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="2.28s"
+		durationms="2276"
+		type="root"
+		rid="89f7badd9959002"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="JohnLloydGonzales"
+		rxversion="12.7.4.0"
+		host="CHEQ-LAP-0332"
+		osversion="Windows 11 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-PH"
+		screenresolution="1920x1080"
+		timestamp="5/13/2026 11:36:30 AM"
+		timestampiso="2026-05-13T03:36:30"
+		endtime="5/13/2026 11:36:32 AM"
+		timeoutfactor="1"
+		runid=""
+		sutversion="">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.235"
+			timeRelativeToTestModuleStartTime="00:02.235"
+			timeWallClock="11:36:32"
+			time="00:02.235"
+			level="Failure"
+			category="TestSuite">
+			<message>
+				Thread was being aborted.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.Reporting.TestReport.set_ZipReport(Boolean value)
+   at Ranorex.Core.Testing.TestSuiteRunner.RunInternal(Type containerType, String[] testSuiteXmls, RunParams[] rps)"
+				loglvl="Failure">
+			</metainfo>
+		</item>
+	</activity>
+</report>
