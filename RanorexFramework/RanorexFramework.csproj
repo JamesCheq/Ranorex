@@ -318,6 +318,9 @@
       <id>4e611b11-aed7-456f-a4d5-a613410e4259</id>
       <recordtableid>cb87304c-8524-496f-8b9f-768a1cce6e91</recordtableid>
     </None>
+    <None Include="README.md">
+      <id>a332c6c8-8008-4eb2-898b-f5da566aa426</id>
+    </None>
     <None Include="Repository\RanorexFrameworkRepository.rximg">
       <DependentUpon>RanorexFrameworkRepository.rxrep</DependentUpon>
       <imageblob>true</imageblob>

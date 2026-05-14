@@ -20,6 +20,11 @@ using Ranorex.Core;
 using Ranorex.Core.Repository;
 using Ranorex.Core.Testing;
 
+
+namespace RanorexFramework.Pages.Introduction
+{
+
+}
 namespace RanorexFramework.Pages.Introduction
 {
     public partial class MOD_EnterName
